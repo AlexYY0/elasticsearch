@@ -1,0 +1,18 @@
+# Server settings
+server:
+  port: 8080
+
+# SPRING PROFILES
+spring:
+  application:
+    name: elasticsearch
+  http:
+    encoding.charset: UTF-8
+    encoding.enable: true
+    encoding.force: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/kevin?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: xsmnt147258
+    driver-class-name: com.mysql.jdbc.Driver
+
